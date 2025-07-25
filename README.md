@@ -11,7 +11,12 @@
 
 3. **Inicie o servidor de desenvolvimento:**
    ```bash
-   npm start
+    npm start
    # ou
    yarn start
    
+   ```
+
+   Exemplo:
+
+   ![Logo do projeto](src/assets/image.png)
