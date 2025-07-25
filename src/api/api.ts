@@ -1,4 +1,4 @@
-export type PokemonResult = { name: string; url: string }
+export type PokemonResult = { id: string; name: string; url: string }
 
 export const getPokemonData = async () => {
   const res = await fetch('https://pokeapi.co/api/v2/pokemon')

@@ -15,10 +15,10 @@ function App() {
   return (
     <div>
       {pokemon.map((pokemon) => (
-        <div key={pokemon.name} className="card">
-          <h2>Nome: </h2>
-          <h2>{pokemon.name}</h2>
+        <div key={pokemon.id} className="card">
+          <h3>{`#000${pokemon.id}`}</h3>
           <img src={pokemon.url} alt={pokemon.name} />
+          <h2>{pokemon.name}</h2>
         </div>
       ))}
     </div>
