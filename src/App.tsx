@@ -23,7 +23,7 @@ function App() {
   const handlePokemonClick = (id: string) => {
     getPokemonDataById(id).then((data) => {
       console.log('Pokemon clicked:', data)
-      setSelectedPokemon(data) // Type assertion to ensure correct type
+      setSelectedPokemon(data)
     })
   }
 
